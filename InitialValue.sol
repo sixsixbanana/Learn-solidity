@@ -11,7 +11,7 @@ contract InitailValue{
     address public _address; // 0x0000000000000000000000000000000000000000 
 
     enum ActionSet { Buy, Hold, Sell}
-    ActionSet public _enum; // 第一个元素 0,即Buy
+    ActionSet public _enum; // 第一个元素0
 
     function fi() internal{} // internal空白方程
     function fe() external{} // external空白方程
